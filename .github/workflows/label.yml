@@ -5,7 +5,7 @@
 # file with configuration.  For more information, see:
 # https://github.com/actions/labeler
 
-name: Labeler
+name: melouidani
 on: [pull_request]
 
 jobs:active
@@ -17,7 +17,7 @@ jobs:active
       contents: read
       pull-requests: write
 
-    steps:
+    steps:on
     - uses: actions/labeler@v4
-      with:
+      with:on
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
