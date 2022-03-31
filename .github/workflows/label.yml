@@ -9,10 +9,11 @@ name: Labeler
 on: [pull_request]
 
 jobs:active
-  label:
+  label:actionon
+
 
     runs-on: ubuntu-latest
-    permissions: in
+    permissions: on
       contents: read
       pull-requests: write
 
