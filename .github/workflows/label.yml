@@ -3,20 +3,15 @@
 #melouidani/fifa2022
 # To use this workflow, you will need to set up a .github/labeler.yml
 # file with configuration.  For more information, see:
-# https://github.com/actions/labeler
-
+# https://github.com/actions/labele
 name: melouidani
 on: [pull_request]
-
 jobs:active
   label:actionon
-
-
     runs-on: ubuntu-latest
     permissions: on
       contents: read
       pull-requests: write
-
     steps:on
     - uses: actions/labeler@v4
       with:on
